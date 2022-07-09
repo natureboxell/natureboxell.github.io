@@ -1,0 +1,28 @@
+header {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  margin-top: 60px;
+  background-color: #a8dadc;
+}
+
+#chino-gallery {
+  margin-top: 60px;
+}
+
+.card {
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.image-card {
+  width: 286px;
+  height: 286px;
+  border-radius: 20px 20px 0 0;
+}
+
+#amigos-gallery {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}

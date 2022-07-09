@@ -5,10 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="resources/css/styles.css">
   <title>Alfredo Chichlla</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #e3f2fd;>
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Chino Utako</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,13 +18,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="#principal">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Imágenes</a>
+            <a class="nav-link" href="#chino-gallery">Fotos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Amigos</a>
+            <a class="nav-link" href="#amigos-gallery">Amigos</a>
           </li>
         </ul>
       </div>
@@ -31,9 +32,59 @@
   </nav>
   <main>
     <header>
-      <h1 class="text-center fw-bold">Chino Utako </h1>
+      <h1 id="principal" class="text-center fw-bold">Chino Utako </h1>
       <h3 class="text-center fw-light">Malvados & Asociados</h3>
     </header>
+    <section id="chino-gallery">
+      <h2 class="text-center"><u>Álbum Mundial 2022</u></h2>
+      <div class="d-flex justify-content-evenly flex-wrap">
+        <div class="card" style="width: 18rem;">
+          <img class="image-card" src="resources/img/WhatsApp Image 2022-07-08 at 10.14.54 PM.jpeg" alt="">
+          <div class="card-body"></div>
+          <h5 class="card-title">Alfredo colegiala</h5>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="image-card" src="resources/img/WhatsApp Image 2022-07-08 at 10.14.54 PM (1).jpeg" alt="">
+          <div class="card-body"></div>
+          <h5 class="card-title">Alfredo freestyler</h5>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="image-card" src="resources/img/WhatsApp Image 2022-07-08 at 10.14.55 PM.jpeg" alt="">
+          <div class="card-body"></div>
+          <h5 class="card-title">Alfredo gaspi</h5>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="image-card" src="resources/img/WhatsApp Image 2022-07-08 at 10.14.56 PM.jpeg" alt="">
+          <div class="card-body"></div>
+          <h5 class="card-title">Alfredo enamorado de jilk</h5>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="image-card" src="resources/img/WhatsApp Image 2022-07-08 at 10.14.57 PM.jpeg" alt="">
+          <div class="card-body"></div>
+          <h5 class="card-title">Alfredo persona normal</h5>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="image-card" src="resources/img/WhatsApp Image 2022-07-08 at 10.14.58 PM (1).jpeg" alt="">
+          <div class="card-body"></div>
+          <h5 class="card-title">Alfredo Messi</h5>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="image-card" src="resources/img/asasa.jpeg" alt="">
+          <div class="card-body"></div>
+          <h5 class="card-title">Alfredo Fuckboy</h5>
+        </div>
+      </div>
+    </section>
+    <section id="amigos-gallery">
+      <h2 class="text-center"><u>Amigos de Alfred</u></h2>
+      <div class="d-flex justify-content-evenly flex-wrap">
+        <div class="card" style="width: 18rem;">
+          <img class="image-card" src="resources/img/WhatsApp Image 2022-07-08 at 10.14.55 PM (1).jpeg" alt="">
+          <div class="card-body"></div>
+          <h5 class="card-title">you farm</h5>
+        </div>
+      </div>
+    </section>
   </main>
   <script src="resources/bootstrap/js/bootstrap.min.js"></script>
 </body>
